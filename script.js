@@ -1,19 +1,19 @@
 // Setup Event Listener for Page Load
 document.addEventListener('DOMContentLoaded', () => {
     // Select DOM Elements
-    const addButton = document.getElementById('add-button');
-    const taskInput = document.getElementById('task-input');
-    const taskList = document.getElementById('task-list');
+    const addButton = document.getElementById('Add Task');
+    const addButton = document.getElementById('Add Task');
+    const addButton = document.getElementById('Add Task');
   
     // Create the addTask Function
     function addTask() {
       // Retrieve and trim the value from the task input field
-      const taskText = taskInput.value.trim();
+      const taskInput = taskInput.value.trim();
   
       // Check if taskText is not empty
       if (taskText !== '') {
         // Create a new li element
-        const taskListItem = document.createElement('li');
+        const taskList = document.createElement('li');
         taskListItem.textContent = taskText;
   
         // Create a new button element for removing the task
